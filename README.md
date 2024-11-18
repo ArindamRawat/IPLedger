@@ -96,6 +96,7 @@ Start the frontend server
 ```
 
 ## Video Link
-[Video Link]
+[Video Link](https://youtu.be/PqdXdDTysic)
 
 ## Images of the Interface
+![Screenshot 2024-11-18 191940](https://github.com/user-attachments/assets/c87190b2-4b38-49f8-b601-e7edc7c6ced4)
