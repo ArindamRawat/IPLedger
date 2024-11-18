@@ -1,0 +1,233 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  padding: 30px;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-section,
+.register-property-section,
+.search-properties-section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.input-field,
+.textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.textarea {
+  height: 120px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.connect-wallet-btn,
+.disconnect-wallet-btn {
+  background-color: #2ecc71;
+  padding: 12px 24px;
+  font-size: 1rem;
+}
+
+.wallet-info p {
+  margin: 10px 0;
+}
+
+.properties-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.properties-table th,
+.properties-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.properties-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.properties-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.properties-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.view-btn {
+  padding: 8px 16px;
+  background-color: #e67e22;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #d35400;
+}
+
+.property-details {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.property-details-table th,
+.property-details-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.property-details-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.property-details-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.property-details-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for buttons and inputs */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+input,
+textarea {
+  transition: border-color 0.3s ease;
+}
+
+/* Spacing between sections */
+.wallet-section,
+.register-property-section,
+.search-properties-section,
+.property-details {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* Adjusting some padding and margins for mobile responsiveness */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  button {
+    padding: 10px 18px;
+    font-size: 1rem;
+  }
+
+  .input-field,
+  .textarea {
+    padding: 10px;
+  }
+
+  .properties-table th,
+  .properties-table td {
+    padding: 12px;
+  }
+
+  .view-btn {
+    padding: 8px 14px;
+  }
+
+  .property-details-table th,
+  .property-details-table td {
+    padding: 12px;
+  }
+}

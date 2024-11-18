@@ -1,0 +1,17 @@
+[package]
+name = "IPM"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+aptos_framework = "0x1"
+
+deployer_addr = "0xb07a341a22ce8cc6374004e20598e9889e9efc4d10f068c7dbcb60dfd578333f"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
