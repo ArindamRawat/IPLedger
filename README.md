@@ -99,4 +99,21 @@ Start the frontend server
 [Video Link](https://youtu.be/PqdXdDTysic)
 
 ## Images of the Interface
+
+Logo:
+
+![IpLedger](https://github.com/user-attachments/assets/7c4d796a-7bc2-49e5-a8fe-ed93814ea747)
+
+Registration Process
 ![Screenshot 2024-11-18 191940](https://github.com/user-attachments/assets/c87190b2-4b38-49f8-b601-e7edc7c6ced4)
+
+![Screenshot 2024-11-18 191957](https://github.com/user-attachments/assets/c60df8f7-3bc1-4968-85d5-3d0f25b6e3ed)
+
+Searching Process (current balance is also visible)
+![Screenshot 2024-11-18 192101](https://github.com/user-attachments/assets/c3e7dc4c-c91f-4483-8d25-5abfe2b4b83e)
+
+Payment and Viewing Process (new balance after transaction is visible)
+![Screenshot 2024-11-18 192120](https://github.com/user-attachments/assets/01b54749-9eed-4a2a-b7d3-68e6105d7a2d)
+
+![Screenshot 2024-11-18 192330](https://github.com/user-attachments/assets/799f7f73-ae94-49a6-b1cb-079826646bdb)
+
